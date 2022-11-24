@@ -12,7 +12,7 @@ terraform {
 
   backend "s3" {
     bucket         = "tf-state-notifier-efs-bucket02"
-    key            = "terraform.tfstate"
+    key            = "teste"
     dynamodb_table = "tf-state-notifier-efs-table02"
   }
 
