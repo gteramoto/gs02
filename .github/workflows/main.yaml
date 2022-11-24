@@ -40,7 +40,7 @@ jobs:
 
     - name: Step 05 - Terraform Init
       run : terraform
-              -chdir=$WORKDIR
+              -chdir=$workdir
               init
               -input=false
 
