@@ -39,8 +39,8 @@ jobs:
         aws-region           : us-east-1
 
     - name: Step 05 - Terraform Init
-      run : terraform
-              chdir=$workdir
+      run : terraform        
+              -chdir=$WORKDIR
               init
               input=false
 
